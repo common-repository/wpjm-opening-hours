@@ -1,0 +1,29 @@
+#opening_hours > div {
+    display: inline-block;
+    width: 100%;
+}
+
+.hours {
+    float: right;
+}
+
+div .day, div .hours {
+    display: inline-block;
+}
+
+.widget_listing_sidebar_opening_hours {
+    padding: 20px !important;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+}
+
+.widget_listing_sidebar_opening_hours > hr {
+    background-color: rgba(0, 0, 0, 0.075);
+    border: 0;
+    height: 1px;
+    margin: 7px 0;
+}
+
+#opening_hours > div {
+    margin: 5px 0;
+}
